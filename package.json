@@ -1,12 +1,12 @@
 {
-  "name": "static-website-template",
-  "version": "1.0.2",
-  "description": "A template for building static website",
-  "author": "Vincent Will <vincent.will@vaitrade.de>",
+  "name": "flower",
+  "version": "1.0.0",
+  "description": "flower",
+  "author": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Vincenius/static-website-template"
+    "url": ""
   },
   "scripts": {
     "clean": "rimraf dist/*",
@@ -34,7 +34,7 @@
     "eslint-webpack-plugin": "^3.1.1",
     "htmlnano": "^2.0.0",
     "imagemin-cli": "^7.0.0",
-    "node-sass": "^7.0.1",
+    "node-sass": "^7.0.3",
     "npm-run-all": "^4.1.5",
     "onchange": "^7.1.0",
     "postcss-cli": "^9.1.0",

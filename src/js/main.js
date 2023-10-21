@@ -1,3 +1,6 @@
-import { logSomething } from './module';
-
-logSomething('Hello World');
+onload = () => {
+  const c = setTimeout(() => {
+    document.body.classList.remove('not-loaded');
+    clearTimeout(c);
+  }, 1000);
+};
